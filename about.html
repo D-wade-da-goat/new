@@ -1,0 +1,114 @@
+<!-- 
+
+Kamsiyochukwu Ikwuetoghu 
+
+Web Development 
+
+Mrs. Hoitink 
+
+Pembina Trails Collegiate 
+
+October 21, 2024 
+
+--> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        /* Container for main content */
+        .container {
+            max-width: 900px; /* Maximum width of the content */
+            margin: 20px auto; /* Centers the container */
+            padding: 20px; /* Adds padding inside the container */
+            border-radius: 8px; /* Rounded corners for the container */
+        }
+
+        /* Style for the main heading */
+        h1 {
+            margin-bottom: 10px; /* Space below the heading */
+        }
+
+        /* Card style for each information section (like 'Kamsi') */
+        .card {
+            border-radius: 8px; /* Rounded corners */
+            padding: 15px; /* Padding inside the card */
+            margin: 20px 0; /* Space above and below the card */
+            box-shadow: 0 1px 2px rgba(255, 149, 0, 0.607); /* Light shadow */
+            transition: transform 0.2s; /* Smooth transformation on hover */
+            text-align: center; /* Centers text inside the card */
+            background-color: #454545; /* Dark background color */
+            color: white; /* White text color */
+        }
+
+        /* Hover effect for the card: enlarges and adds a stronger shadow */
+        .card:hover {
+            transform: scale(1.05); /* Slight zoom effect */
+            box-shadow: 0 1px 6px rgba(255, 149, 0, 0.881); /* Stronger shadow on hover */
+        }
+
+        /* Paragraph style for text content */
+        p {
+            line-height: 1.6; /* Increases line spacing for readability */
+            font-family: sans-serif; /* Sets a clean, modern font */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Logo image at the top of the page -->
+        <img src="images/trt.png" style="height: 250px;" alt="Treaty 2 Logo"/>
+
+        <!-- Navigation bar with links to Home and About pages -->
+        <nav>
+            <ul>
+                <li style="float: left;"><a href="index.html">Home</a></li> <!-- Home link -->
+                <li style="float: left;"><a href="about.html">About</a></li> <!-- About link -->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content container -->
+    <main>
+        <div class="container">
+            <!-- Title for the About section -->
+            <h1>About Treaty 2</h1>
+
+            <!-- Description of Treaty 2 -->
+            <p>
+                Treaty 2 is an agreement made between the government and Indigenous peoples. It helps protect the rights of these communities and 
+                ensures they can take care of their land and resources. The treaty is important for building respect and cooperation for everyone involved.
+            </p>
+            <br/>
+
+            <!-- Information card about 'Kamsi', the website creator -->
+            <div id="kamsi" class="card">
+                <h2 style="color: white;">Kamsi</h2> <!-- Name of the creator -->
+                <p style="color: white;">
+                    A grade 10 high school student in PTEC. He is the original designer and creator of this website about Treaty 2. He also has created a video
+                    on Indigenous history in Canada.
+                </p>
+            </div>
+        </div>
+
+        <!-- Embedded YouTube video about Indigenous history -->
+        <div>
+            <iframe src="https://www.youtube.com/embed/McYdkq9p0E0?si=Zaj91YmYyjWqVI4I" title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="width:800px; height: 500px;">
+            </iframe>
+        </div>
+    </main>
+
+    <!-- Footer with author and copyright information -->
+    <footer>
+        <div>
+            <p>&copy; 2024 Kamsiyochukwu Ikwuetoghu | All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
